@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ZacharyBaker/shouldZachGoSurf/issues"
   },
-  "homepage": "https://github.com/ZacharyBaker/shouldZachGoSurf#readme"
+  "homepage": "https://github.com/ZacharyBaker/shouldZachGoSurf#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
