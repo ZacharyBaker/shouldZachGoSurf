@@ -4,23 +4,25 @@ import {
   Route,
   Link,
 } from 'react-router-dom';
-
+import Venice from './venice/venice'
+import Home from './home/home'
 import '../assets/stylesheets/base.scss';
-
-const Home = () => (
-  <h1>Yes breh go surf</h1>
-)
-
-const Bad = () => (
-  <h1>Dont do it. its bad</h1>
-)
 
 const App = (props) => {
   return (
     <Router>
       <div className="appWrapper">
-        <Route path='/' component={Home} />
-        <Route path='/bad' component={Bad} />
+        <h1>SHOULD ZACH GO 🏄</h1>
+        <ul>
+          <li>
+            <Link to='/'>Home</Link>
+          </li>
+          <li>
+            <Link to='/venice'>Venice Beeech</Link>
+          </li>
+        </ul>
+        <Route exact path='/' component={Home} />
+        <Route path='/venice' component={Venice} />
       </div>
     </Router>
   );
