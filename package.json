@@ -36,6 +36,7 @@
     "css-loader": "^0.28.7",
     "dotenv": "^4.0.0",
     "express": "^4.16.2",
+    "express-react-views": "^0.10.4",
     "file-loader": "^1.1.6",
     "node-sass": "^4.7.2",
     "react": "^16.2.0",
